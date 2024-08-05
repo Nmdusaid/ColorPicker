@@ -1,0 +1,100 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:rgba(255, 4, 4, 0.6);
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Color Picker */
+#bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+  
+}
+
+#colors {
+    height: 5vh;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    max-width: 300px;
+}
+
+    #para {
+        margin-top: 15px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        color: #000000;
+        cursor: pointer;
+    }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #para {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .bg {
+        padding: 15px;
+    }
+
+    #para {
+        font-size: 1em;
+    }
+}
